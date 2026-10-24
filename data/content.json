@@ -1,0 +1,249 @@
+{
+  "phone": "(+62) 012-3456-7890",
+  "phoneTel": "+6201234567890",
+  "whatsapp": "628872919548",
+  "logo": "assets/web/logo.png",
+  "logoWhite": "assets/web/logo-white.png",
+  "hero": {
+    "eyebrow": "Seafood & Cita Rasa Khas Makassar",
+    "title": "SEAFOOD SEGAR\nUNTUK SETIAP MOMEN",
+    "button": "Pesan Sekarang",
+    "image": "assets/web/hero.jpg"
+  },
+  "about": {
+    "title": "DINAR SEAFOOD",
+    "since": "Sejak 2002, sebuah perjalanan rasa dimulai.",
+    "paragraphs": [
+      "Dinar Seafood hadir dari kecintaan terhadap hasil laut dan kekayaan cita rasa Makassar. Selama lebih dari dua dekade, kami menjaga kesegaran bahan dan karakter bumbu khas yang menjadi identitas setiap hidangan.",
+      "Bagi kami, setiap sajian bukan sekadar makanan, melainkan bagian dari cerita yang dinikmati bersama di tengah keluarga, sahabat, dan orang-orang terdekat."
+    ]
+  },
+  "signature": {
+    "title": "RASA KHAS YANG JADI PILIHAN",
+    "subtitle": "Sajian Khas Dinar Seafood",
+    "items": [
+      {
+        "image": "assets/web/sig-parape.jpg",
+        "title": "Ikan Sukang\nBakar Parape",
+        "alt": "Ikan sukang bakar parape"
+      },
+      {
+        "image": "assets/web/sig-krapu.jpg",
+        "title": "Ikan Krapu Tim\nHong Kong",
+        "alt": "Ikan krapu tim Hong Kong"
+      },
+      {
+        "image": "assets/web/sig-kerang.jpg",
+        "title": "Kerang Kepa\nTauco",
+        "alt": "Kerang kepa tauco"
+      },
+      {
+        "image": "assets/web/sig-cumi.jpg",
+        "title": "Cumi Goreng\nGaring",
+        "alt": "Cumi goreng garing"
+      }
+    ]
+  },
+  "features": {
+    "title": "DI BALIK CITA RASA DINAR",
+    "items": [
+      {
+        "title": "BAHAN SEGAR PILIHAN",
+        "text": "Bahan seafood pilihan\nyang di jaga kesegaranya"
+      },
+      {
+        "title": "CITA RASA AUTENTIK",
+        "text": "Cita rasa yang menjadi\nkarakter Dinar Seafood"
+      },
+      {
+        "title": "KUALITAS & KEBERSIHAN",
+        "text": "Proses pengolahan dengan\nstandar kebersihan yang terjaga"
+      },
+      {
+        "title": "UNTUK SEMUA SELERA",
+        "text": "Cocok untuk keluarga, gathering,\nmaupun makan bersama"
+      }
+    ]
+  },
+  "promo": {
+    "eyebrow": "Dapatkan",
+    "headline": "10% OFF",
+    "plus": "+ GRATIS ONGKIR",
+    "codeLabel": "DENGAN KODE KUPON",
+    "code": "DINAR2026",
+    "button": "Pesan Sekarang",
+    "fine": "Berlaku untuk pemesanan mulai dari Rp 250.000 pada periode 13-17 September, kupon tidak berlaku kelipatan.",
+    "image": "assets/web/crab.jpg",
+    "imageAlt": "Kepiting saus mentega dengan jagung"
+  },
+  "menu": {
+    "title": "RAGAM RASA UNTUK DINIKMATI",
+    "subtitle": "Sajian Dinar Seafood",
+    "categories": [
+      {
+        "name": "Ikan Sukang",
+        "items": [
+          {
+            "name": "Ikan Sukang\nBakar Parape",
+            "price": "Rp 22.000/ons",
+            "image": "assets/web/menu-parape.jpg",
+            "alt": "Ikan sukang bakar parape"
+          },
+          {
+            "name": "Ikan Sukang\nBakar Rica-Rica",
+            "price": "Rp 22.000/ons",
+            "image": "assets/web/menu-rica.jpg",
+            "alt": "Ikan sukang bakar rica-rica"
+          },
+          {
+            "name": "Ikan Sukang\nBakar Dua Rasa",
+            "price": "Rp 22.000/ons",
+            "image": "assets/web/menu-duarasa.jpg",
+            "alt": "Ikan sukang bakar dua rasa"
+          }
+        ]
+      },
+      {
+        "name": "Sayuran",
+        "items": [
+          {
+            "name": "Tumis Bunga Pepaya",
+            "price": "Rp 65.000",
+            "image": "assets/web/veg-pepaya.jpg",
+            "alt": "Tumis bunga pepaya"
+          },
+          {
+            "name": "Kangkung Belacan",
+            "price": "Rp 35.000",
+            "image": "assets/web/veg-kangkung.jpg",
+            "alt": "Kangkung belacan"
+          },
+          {
+            "name": "Pare Telur Asin",
+            "price": "Rp 45.000",
+            "image": "assets/web/veg-pare.jpg",
+            "alt": "Pare telur asin"
+          }
+        ]
+      },
+      {
+        "name": "Minuman",
+        "items": [
+          {
+            "name": "Es Cendol",
+            "price": "Rp 30.000",
+            "image": "assets/web/drink-cendol.jpg",
+            "alt": "Es cendol"
+          },
+          {
+            "name": "Lychee Tea",
+            "price": "Rp 28.000",
+            "image": "assets/web/drink-lychee.jpg",
+            "alt": "Lychee tea"
+          },
+          {
+            "name": "Jus Jeruk",
+            "price": "Rp 25.000",
+            "image": "assets/web/drink-jeruk.jpg",
+            "alt": "Jus jeruk"
+          }
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "TEMPAT UNTUK MENIKMATI KEBERSAMAAN",
+    "images": [
+      {
+        "src": "assets/web/place-1.jpg",
+        "alt": "Area dapur dan meja makan Dinar Seafood"
+      },
+      {
+        "src": "assets/web/place-2.jpg",
+        "alt": "Ruang makan dengan dinding lengkung"
+      },
+      {
+        "src": "assets/web/place-3.jpg",
+        "alt": "Area makan dengan tanaman gantung"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "CERITA DARI MEREKA",
+    "items": [
+      {
+        "initial": "N",
+        "color": "n",
+        "name": "Nathanael Hadinata",
+        "when": "2 months ago",
+        "text": "Tempatnya habis renovasi jadi tetap relevan. Tempatnya bagus, bagian outdoornya jg langsung view danau jadi nyaman. Makanannya enak bumbunya mantap terutama sukang parape nya ikonik bgt. Serving makanannya juga tergolong cepat. Tempat makan luas bisa buat keluarga."
+      },
+      {
+        "initial": "E",
+        "color": "e",
+        "name": "Eviana Fransisca",
+        "when": "3 months ago",
+        "text": "My comfort restoooo, kalo bingung makan apa ujung2nya reservasi dinar. Mba2 nya fast resp di whatsapp tinggal wa book trus datang makan. Gatau knp restonya rada sepi underrated padahal makanannya enak2 bgt weh."
+      },
+      {
+        "initial": "V",
+        "color": "v",
+        "name": "Veronica",
+        "when": "4 months ago",
+        "text": "Really like their Grilled Fish with Parape sauce. The fish meat just fell off the bone, like eating ribs. Their Parape sauce is not too spicy but very flavorful. They also provide Sambal Dabu for free, too bad the composition between shallot and tomato is not balanced. If they could add more shallot, that will be perfect."
+      },
+      {
+        "initial": "K",
+        "color": "k",
+        "name": "Kartika C.",
+        "when": "4 months ago",
+        "text": "Baru pertama kali nyoba makan disini, ternyata tempatnya bagus terutama suasana area outdoornya sangat adem anginnya. Menu makanan yg kebetulan dipesan antara lain gulai kepala kakap, kepiting soka lada garam, cumi goreng garing, kerang kepa saus padang, kangkung bwg putih, pare orak arik, nasi goreng seafood."
+      }
+    ]
+  },
+  "contact": {
+    "title": "MARI TERHUBUNG DENGAN KAMI",
+    "address": "Jl. Pluit Indah Raya No. 168 A Pluit, Penjaringan, Jakarta Utara",
+    "hours": "10.00-22.00 WIB",
+    "whatsappDisplay": "0887-2919-548",
+    "instagram": "@dinarseafoodjkt",
+    "instagramUrl": "https://www.instagram.com/dinarseafoodjkt/",
+    "email": "dinarseafood1@gmail.com",
+    "map": "assets/web/map.jpg",
+    "mapAlt": "Peta lokasi Dinar Seafood di Pluit, Jakarta Utara",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dinar+Seafood+Pluit+Indah+Raya"
+  },
+  "footer": {
+    "tagline": "Seafood & cita rasa khas makassar",
+    "columns": [
+      {
+        "title": "Lorem Ipsum",
+        "links": [
+          "Lorem Ipsum",
+          "Lorem Ipsum",
+          "Lorem Ipsum",
+          "Lorem Ipsum"
+        ]
+      },
+      {
+        "title": "Lorem Ipsum",
+        "links": [
+          "Lorem Ipsum",
+          "Lorem Ipsum",
+          "Lorem Ipsum",
+          "Lorem Ipsum"
+        ]
+      },
+      {
+        "title": "Lorem Ipsum",
+        "links": [
+          "Lorem Ipsum",
+          "Lorem Ipsum",
+          "Lorem Ipsum",
+          "Lorem Ipsum"
+        ]
+      }
+    ],
+    "copyright": "2026 Dinar Seafood"
+  }
+}

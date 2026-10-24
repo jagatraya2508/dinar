@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dinar Seafood</title>
+  <link rel="icon" href="/assets/web/logo.png">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <main class="login" id="login">
+    <form id="login-form">
+      <img src="/assets/web/logo.png" alt="Dinar Seafood">
+      <h1>Masuk admin</h1>
+      <p>Ubah teks dan foto website dari sini.</p>
+      <label>Username<input name="username" autocomplete="username" required value="admin"></label>
+      <label>Kata sandi<input name="password" type="password" autocomplete="current-password" required></label>
+      <p class="error" id="login-error" hidden></p>
+      <button type="submit">Masuk</button>
+    </form>
+  </main>
+
+  <div class="app" id="app" hidden>
+    <aside>
+      <img src="/assets/web/logo.png" alt="">
+      <nav id="tabs"></nav>
+      <a class="view" href="/" target="_blank" rel="noopener">Lihat website</a>
+      <button type="button" id="logout">Keluar</button>
+    </aside>
+    <section>
+      <header>
+        <h1 id="panel-title">Konten</h1>
+        <button type="button" id="save">Simpan perubahan</button>
+      </header>
+      <p class="status" id="status"></p>
+      <div id="panel"></div>
+    </section>
+  </div>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>
