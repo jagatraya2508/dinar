@@ -9,6 +9,6 @@ RUN useradd -m -u 1001 dinar && \
 
 USER dinar
 
-EXPOSE 8765
+EXPOSE 3002
 
 CMD ["python", "server.py"]

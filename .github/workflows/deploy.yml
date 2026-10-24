@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: Deploy to Linux Server
-    runs-on: self-hosted
+    runs-on: [self-hosted, dinarweb]
 
     steps:
       - name: Checkout kode
@@ -20,41 +20,41 @@ jobs:
       # -------------------------------------------------------
 
       # == OPSI A: Docker ==
-      - name: Deploy dengan Docker
-        run: |
-          set -e
-          cd /srv/dinarweb
-
-          # Tarik kode terbaru (runner sudah checkout, tapi kita deploy dari path tetap)
-          rsync -a --delete \
-            --exclude='.git' \
-            --exclude='data/admin.json' \
-            --exclude='assets/web/uploads/' \
-            $GITHUB_WORKSPACE/ /srv/dinarweb/
-
-          # Build ulang image dan restart container
-          docker compose build --no-cache
-          docker compose up -d --force-recreate
-
-          # Tunggu container sehat
-          sleep 3
-          docker compose ps
-
-      # == OPSI B: PM2 ==
-      # - name: Deploy dengan PM2
+      # - name: Deploy dengan Docker
       #   run: |
       #     set -e
+      #     cd /srv/node/dinarweb
+      #
+      #     # Tarik kode terbaru (runner sudah checkout, tapi kita deploy dari path tetap)
       #     rsync -a --delete \
       #       --exclude='.git' \
       #       --exclude='data/admin.json' \
       #       --exclude='assets/web/uploads/' \
-      #       $GITHUB_WORKSPACE/ /srv/dinarweb/
+      #       $GITHUB_WORKSPACE/ /srv/node/dinarweb/
       #
-      #     cd /srv/dinarweb
-      #     pm2 reload ecosystem.config.js --update-env
-      #     pm2 save
+      #     # Build ulang image dan restart container
+      #     docker compose build --no-cache
+      #     docker compose up -d --force-recreate
+      #
+      #     # Tunggu container sehat
+      #     sleep 3
+      #     docker compose ps
+
+      # == OPSI B: PM2 ==
+      - name: Deploy dengan PM2
+        run: |
+          set -e
+          rsync -a \
+            --exclude='.git' \
+            --exclude='data/admin.json' \
+            --exclude='assets/web/uploads/' \
+            $GITHUB_WORKSPACE/ /srv/node/dinarweb/
+
+          cd /srv/node/dinarweb
+          pm2 reload ecosystem.config.js --update-env || pm2 start ecosystem.config.js
+          pm2 save
 
       - name: Verifikasi server berjalan
         run: |
           sleep 2
-          curl -sf http://127.0.0.1:8765/ -o /dev/null && echo "OK: server merespons" || (echo "FAIL: server tidak merespons" && exit 1)
+          curl -sf http://127.0.0.1:3002/ -o /dev/null && echo "OK: server merespons" || (echo "FAIL: server tidak merespons" && exit 1)
