@@ -1,0 +1,12 @@
+services:
+  dinarweb:
+    build: .
+    container_name: dinarweb
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8765:8765"
+    volumes:
+      - ./data:/app/data
+      - ./assets/web/uploads:/app/assets/web/uploads
+    environment:
+      - PYTHONUNBUFFERED=1
